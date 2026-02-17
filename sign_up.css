@@ -157,6 +157,8 @@ label {
 input {
     width: 250px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    border-style: solid;
 }
 
 input[type=button] {
@@ -176,4 +178,8 @@ input[type=button] {
 
 .logIn {
     margin-left: 50px;
+}
+
+input[type=password]:invalid {
+    border-color: red;
 }
